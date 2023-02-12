@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\admin\categorycontroller;
+use App\Http\Controllers\admin\subcategorycontroller;
 use App\Http\Controllers\HomeController;
 
 /*
@@ -32,3 +33,6 @@ Route::get('/category/edit/{id}', [categorycontroller::class, 'edit'])->name('ca
 Route::post('/update/category/{id}', [categorycontroller::class, 'update'])->name('update.name');
 
 Route::get('/category/delete/{id}', [categorycontroller::class, 'distroy'])->name('cat.delete');
+
+// SUBCATEGORY START
+Route::resource('product', subcategorycontroller::class);

@@ -52,7 +52,7 @@
 
 
 
- <body class="hold-transition sidebar-mini">
+ {{-- <body class="hold-transition sidebar-mini">
 <div class="wrapper">
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -185,7 +185,7 @@
   <!-- /.control-sidebar -->
 </div>
 
-</body> 
+</body>  --}}
 
 
 

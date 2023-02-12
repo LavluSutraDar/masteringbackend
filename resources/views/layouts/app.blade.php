@@ -87,7 +87,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard 2</title>
+  <title>Dashboard</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -97,11 +97,16 @@
   <link rel="stylesheet" href="{{asset('/')}}backend/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('/')}}backend/dist/css/adminlte.min.css">
+  <!-- Theme toastr -->
+  
+  
+  
 
   <!-- DataTables -->
   <link rel="stylesheet" href="{{asset('/')}}backend/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="{{asset('/')}}backend/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="{{asset('/')}}backend/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -174,6 +179,12 @@
 <script src="{{asset('/')}}backend/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="{{asset('/')}}backend/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="{{asset('/')}}backend/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!---------------------- sweetalert --------------------->
+
+
+
+
+
 
 <script>
     $(function () {
